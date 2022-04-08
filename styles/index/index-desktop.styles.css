@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+
+/* Navbar  */
+
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: var(--navbar-background-color);
+    height: 60px;
+}
+
+.navbar_main {
+    display: flex;
+}
+
+.logo {
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+    width: 12rem;
+}
+
+
+/* Address container */
+
+.address_container {
+    margin-top: 1.5rem;
+    margin-right: 4rem;
+    margin-left: 3rem;
+}
+
+.address-name {
+    color: var(--font-color-gray);
+    font-size: var(--font-small);
+}
+
+.address-postal {
+    color: var(--font-color-white);
+    font-size: var(--font-small);
+}
