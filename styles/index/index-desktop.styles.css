@@ -212,7 +212,43 @@ header {
     flex-direction: row;
 }
 
+/* Top Links */
+
+.product_page-link {
+    height: 5vh;
+}
 .links-loc{
     display: flex;
     margin-top: 5rem;
+}
+
+.pages {
+    font-size: var(--font-small);
+}
+
+.arrow-r {
+    width: 10%;
+}
+
+#arrow-r {
+    width: 3%;
+}
+
+.normal {
+    color: black;
+}
+
+/* Pictures Section */
+
+.photo_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.vertical-pics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    margin-left: 20rem;
 }
