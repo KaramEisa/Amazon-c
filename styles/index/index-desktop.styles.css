@@ -391,6 +391,7 @@ p {
     border: 1px solid var(--font-color-gray);
     padding: 1rem;
     width: 80%;
+    border-ra
     /* text-align: center; */
 }
 
@@ -453,4 +454,56 @@ p {
     font-size: var(--font-medium);
     border-radius: 50px;
     text-align: center;
+}
+
+.uil-lock {
+    color: black;
+}
+
+.secure {
+    margin-top: 2rem;
+}
+
+.ship-loc {
+    display: flex;
+}
+
+.ml {
+    margin-left: 1rem;
+}
+
+.mt {
+    margin-top: 1rem;
+}
+
+.add-list {
+    font-size: var(--font-small);
+    font-family: var(--font-family);
+    padding: 1rem;
+    width: 100%;
+}
+
+
+
+/* Upsell Section */
+.upsell {
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    background-color: green;
+}
+
+/* Carousel Section*/
+.carousel {
+    display: flex;
+    height: 40vh;
+    width: 100%;
+    background-color: blueviolet;
+}
+/* Q&A Section*/
+.qna {
+    display: flex;
+    height: 20vh;
+    width: 100%;
+    background-color: rosybrown;
 }
