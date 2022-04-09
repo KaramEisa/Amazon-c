@@ -1,7 +1,8 @@
 :root {
     --navbar-background-color: #141921;
     --subnav-background-color: #232f3e;
+    --background-color-orange : #febd69;
+    --background-color-gray: #f7f8f8;
     --font-color-gray : #cbcbcb;
     --font-color-white : #fff;
-    --background-color-orange : #febd69;
 }

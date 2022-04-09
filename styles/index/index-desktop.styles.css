@@ -184,10 +184,35 @@ header {
 
 .arrow-down2 {
     width: 10%;
-    margin-top: rem;
 }
 
 
 /* ============== Sponsor Ad Secction ======================= */
+/* 
+.sponsored_ad {
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    width: 100%;
+    background-color: red;
+} */
 
-/*  */
+/* ============== Main Secction ======================= */
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0 25rem;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.links-loc{
+    display: flex;
+    margin-top: 5rem;
+}
