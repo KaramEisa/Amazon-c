@@ -4,6 +4,17 @@
     box-sizing: border-box;
   }
 
+  
+/* ============== Navbar Top Secction ======================= */
+
+body {
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
 
 /* Navbar  */
 header {
@@ -13,6 +24,7 @@ header {
 
 .navbar {
     display: flex;
+    flex-direction: column;
     width: 100%;
     background-color: var(--navbar-background-color);
     height: 60px;
@@ -125,3 +137,57 @@ header {
 }
 
 /* Cart */
+
+.cart {
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+}
+
+.cart-img {
+    width: 40%;
+}
+
+.cart-text {
+    /* margin-bottom: ; */
+    color: var(--font-color-white);
+    font-size: var(--font-medium);
+}
+
+/* ============== Navbar bottom Secction ======================= */
+
+.subnav {
+    display: flex;
+    width: 100%;
+    background-color: var(--subnav-background-color);
+}
+
+.subnav_main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.all-text {
+    margin-bottom: ;
+}
+
+.hamburger-menu {
+    margin-bottom: .5rem;
+    width: 40%;
+}
+.subnav-link{
+    margin-left: 2rem;
+    color: var(--font-color-white);
+    font-size: var(--font-small);
+}
+
+.arrow-down2 {
+    width: 10%;
+    margin-top: rem;
+}
+
+
+/* ============== Sponsor Ad Secction ======================= */
+
+/*  */
