@@ -1,12 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
 
 /* Navbar  */
-
-
 header {
     display: flex;
     width: 100%;
@@ -23,18 +22,18 @@ header {
     display: flex;
 }
 
+/* logo */
+
 .logo {
     margin-top: 1rem;
     margin-left: 2.5rem;
     width: 12rem;
 }
 
-
-/* Address container */
+/* Address */
 
 .address_container {
-    display: flex;
-    flex-direction: column;
+    display: flex; 
     margin-top: 1.5rem;
     margin-right: 4rem;
     margin-left: 3rem;
@@ -51,5 +50,78 @@ header {
 }
 
 .uil {
-    color: wheat;
+    margin-right: 0.5rem;
+    color: var(--font-color-white);
+    font-size: var(--font-medium);
 }
+
+/* Search bar */
+.search-bar {
+    margin-top: 1.5rem;
+}
+.search-select {
+    margin-left: 0;
+    padding-top:7px;
+    padding-bottom: 7px;
+    font-size: var(--font-smaller);
+}
+
+.search-bar .searchfield {
+    padding-top:7px;
+    padding-bottom: 7px;
+    padding-right: 80rem;
+}
+
+.search-submit {
+    color: var(--font-color-gray);
+    background-color: var(--background-color-orange);
+}
+
+.uil-search {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Language change */
+.us-flag {
+    margin-top: 1.5rem;
+    margin-left: 5rem;
+    width: 30px;
+}
+
+.arrow-down {
+    width: 15px;
+    margin-bottom: 0.8rem;
+}
+
+/* Sign in*/
+.sign-in {
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+}
+
+.upper_sign-in {
+    color: var(--font-color-white);
+}
+
+.lower_sign-in {
+    color: var(--font-color-white);
+    font-size: var(--font-small);
+}
+
+/* Refund & Order */
+.returns-order {
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+}
+
+.returns {
+    color: var(--font-color-white);
+}
+
+.order{
+    color: var(--font-color-white);
+    font-size: var(--font-small);
+}
+
+/* Cart */
